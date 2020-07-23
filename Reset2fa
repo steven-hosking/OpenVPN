@@ -1,0 +1,5 @@
+SSH Login as openvpnas user 
+
+$ ssh openvpnas@<open-vpn-server-ip>
+$ cd /usr/local/openvpn_as/scripts/ # Go to OpenVPN AS Scripts directory
+$ sudo ./sacli --user USERNAME GoogleAuthRegen # Replace USERNAME with username to get a new Google Authenticator Secret
